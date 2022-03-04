@@ -1,0 +1,65 @@
+.main-header
+  width: auto
+  display: flex
+  color: #fff
+  background: #000
+  .wrapper
+    width: 960px
+    margin: 0 auto
+    display: flex
+
+.main-nav
+  width: 800px
+  display: flex
+  align-items: center
+  &__list-items
+    padding: 0
+    margin: 0
+    display: flex
+  &__item
+    list-style: none
+    a
+      font-size: 18px
+      line-height: 24px
+      text-transform: uppercase
+      color: #fff
+      text-decoration: none
+      padding: 23px 28px 25px
+
+      &:hover
+        background: #fff
+        color: #000
+
+.user-block
+  position: relative
+  width: 160px
+  font-size: 18px
+  line-height: 24px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+
+  &::before
+    content: ""
+    position: absolute
+    top: 23px
+    left: 40px
+    width: 30px
+    height: 30px
+    background: url('../img/login_black_24dp.svg') no-repeat
+    opacity: 0.7
+
+  &:hover::before
+    opacity: 1
+
+  a
+    text-decoration: none
+    color: #fff
+    padding-left: 60px
+    padding-right: 35px
+    padding-top: 23px
+    padding-bottom: 23px
+    text-transform: uppercase
+    &:hover
+      background: #fff
+      color: #000
