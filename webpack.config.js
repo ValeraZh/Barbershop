@@ -35,7 +35,7 @@ module.exports = {
             patterns: [
                 {
                     from: path.resolve(__dirname, 'src/img'),
-                    to: path.resolve(__dirname, '.app/img')
+                    to: path.resolve(__dirname, 'app/img')
                 }
             ]
         }),
@@ -81,7 +81,6 @@ module.exports = {
             directory: path.resolve(__dirname, 'app')
         },
         open: true,
-        historyApiFallBack: true,
         hot: true,
         compress: true,
         port: 8081,
