@@ -1,0 +1,81 @@
+.mb-50
+  margin-bottom: 45px
+
+.bg-dark-grey
+  background: #404040
+  
+.bg-light-grey
+  background: #4e4e4e
+  
+.advantages
+  width: 100%
+  height: 617px
+  box-sizing: border-box
+  background: #353535
+  .wrapper
+    width: 960px
+    margin: 0 auto
+    display: flex
+  &__statistics
+    width: 100%
+    height: 318px
+    margin-top: -158px
+    display: flex
+    position: relative
+    &::before
+      content: ""
+      position: absolute
+      top: 37px
+      left: -20px
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 20px
+      border-color: transparent transparent transparent #fff
+      transform: rotate(-45deg)
+  &__big-article
+    width: 320px
+    height: 318px
+    color: #000
+    background: #fff
+    .content-article
+      margin: 28px
+      h2
+        font-size: 40px
+        line-height: 40px
+      p
+        font-size: 20px
+        line-height: 27px
+        margin-bottom: 30px
+        font-family: 'Arial Narrow', sans-serif
+        font-weight: lighter
+      span
+        font-size: 20px
+        line-height: 27px
+        opacity: 0.2
+  &__article-wrap
+    width: 320px
+    height: 318px
+    display: flex
+    flex-direction: column
+  &__article-item
+    width: 320px
+    height: 159px
+    display: flex
+    justify-content: start
+    align-items: center
+    .articles-item-column
+      margin-top: 25px
+      padding-left: 40px
+      p
+        margin-top: 20px
+        font-size: 20px
+        line-height: 27px
+      span
+        font-size: 72px
+        line-height: 18px
+      sup
+        font-size: 45px
+
+
+
